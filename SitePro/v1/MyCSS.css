@@ -1,0 +1,47 @@
+.container{
+    width: 100%;
+    background-color: rgb(93, 30, 151);
+    display: flex;
+}
+
+.container > .menu{
+    background-color:rgb(141, 73, 96) ;
+    width: 15%;
+}
+
+.menu a{
+    font-size: 20px;
+    color:yellowgreen;
+}
+
+.container > div{
+    width: 85%;
+    position: relative;
+    left:20px;
+}
+
+.container > div a{
+    color: rgb(210, 0, 0);
+}
+
+p, h1, h2, h3, nav, ul{
+    color: goldenrod;
+}
+
+p, ul{
+    font-size: 20px;
+}
+
+h1{
+    font-size: 50px;
+    position: relative;
+}
+
+h2{
+    font-size: 35px;
+}
+
+footer p{
+    font-size: 15px;
+    color: black;
+}
