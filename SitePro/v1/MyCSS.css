@@ -6,7 +6,11 @@
 
 .container > .menu{
     background-color:rgb(141, 73, 96) ;
-    width: 15%;
+    width: 10%;
+}
+
+#selected{
+    color:rgb(0, 255, 234)
 }
 
 .menu a{
@@ -15,7 +19,7 @@
 }
 
 .container > div{
-    width: 85%;
+    width: 90%;
     position: relative;
     left:20px;
 }
@@ -35,6 +39,8 @@ p, ul{
 h1{
     font-size: 50px;
     position: relative;
+    margin: 0 auto;
+    text-align: center;
 }
 
 h2{
