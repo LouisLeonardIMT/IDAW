@@ -1,0 +1,8 @@
+.menu{
+    display: flex;
+    flex-direction: row;
+}
+
+h1{
+    color: red;
+}
