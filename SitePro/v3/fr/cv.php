@@ -1,13 +1,5 @@
-<?php
-require_once('template_header.php');
-?>
 <body>
 <h1>Mon CV</h1>
-<div class="container">
-<nav class="menu">
-<?php require_once('template_menu.php');
-    renderMenuToHTML('cv');?>
-</div>
 <div class="EXP">
 <h2>EXPÉRIENCES PROFESSIONNELLES</h2>
 <h3>Animation — Sciences Expeludique</h3>
@@ -47,6 +39,4 @@ require_once('template_header.php');
 <p>Ecriture de nouvelles, création et participation à des jeux de rôles sur table.</p>
 <h3>Lecture</h3>
 <p>Fantasy, mystère, fiction.</p>
-<?php
-require_once('template_footer.php');
-?>
+<a href="index.php?page=cv&lang=en">Anglais</a>
