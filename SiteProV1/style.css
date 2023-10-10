@@ -22,6 +22,12 @@
     border-radius: 4px;           /* Arrondis des bordures */
 }
 
+.EXP{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+} 
+
 a{
     color: black;
 }
