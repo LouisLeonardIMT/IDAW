@@ -4,13 +4,17 @@ function renderMenuToHTML($currentPageId) {
     $mymenu = array(
         // idPage titre
         'index' => array( 'Accueil' ),
-        'cv' => array( 'Cv' ),
+        'cv' => array( 'CV' ),
         'projets' => array('Mes Projets')
     );
-    //...
+    echo "<nav class ='menu'>\n<ul>\n";
     foreach($mymenu as $pageId => $pageParameters) {
-        echo "...";
+        if ($pageId === $currentPageId) {
+            echo "<li><a href='".$pageId.".php' id='currentpage'>".$pageParameters[0]."</a></li>\n";
+        } else {
+            echo "<li><a href='".$pageId.".php'>".$pageParameters[0]."</a></li>\n";
+        }
     }
-    // ...
+    echo "</ul>\n</nav>";
 }
 ?>

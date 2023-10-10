@@ -5,7 +5,8 @@ require_once('template_header.php');
 <h1>Mon CV</h1>
 <div class="container">
 <nav class="menu">
-<?php require_once('template_menu.php')?>
+<?php require_once('template_menu.php');
+    renderMenuToHTML('cv');?>
 </div>
 <div class="EXP">
 <h2>EXPÉRIENCES PROFESSIONNELLES</h2>

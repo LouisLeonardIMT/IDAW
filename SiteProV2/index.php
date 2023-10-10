@@ -5,7 +5,7 @@ require_once('template_header.php');
 <h1>Louis Léonard</h1>
 <div class="container">
     <?php 
-    require_once('template_menu.php')
+    require_once('template_menu.php');
     renderMenuToHTML('index');
 ?>
 </div>

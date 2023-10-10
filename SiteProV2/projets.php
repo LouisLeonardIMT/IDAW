@@ -5,7 +5,8 @@ require_once('template_header.php');
 <body>
 <h1>Mes projets</h1>
 <div class="container">
-<?php require_once('template_menu.php')?>
+<?php require_once('template_menu.php');
+    renderMenuToHTML('projets');?>
 </div>
 <p>Je travaille beaucoup.</p>
 <?php
