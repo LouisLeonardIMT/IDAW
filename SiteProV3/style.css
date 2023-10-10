@@ -1,0 +1,48 @@
+.menu ul {
+    display: flex;                /* Transformation en flexbox */
+    padding:0;                    /* Suppression des marges internes */
+    background-color: #ccc;       /* Ajout de la couleur d'arrière-plan */
+    justify-content: space-around;/* Alignements des liens dans le menu */
+}
+.menu ul li {
+    list-style-type: none ;       /* Suppression des puces */
+  
+}
+.menu ul a {
+    display:block;                /* Transformation en block */
+    min-width: 120px;             /* Largeur minimale des liens */   
+    
+    margin: 0.5rem;               /* Marges externes */
+    padding: 0.4rem 0;            /* Marges internes */
+    text-align: center;           /* Centrage du texte */   
+    background-color: #1ABC9C;    /* Arrière-plan */
+    color: #fff;                  /* Couleur du texte */
+    text-decoration: none;        /* Suppression du soulignement */
+    border: 1px solid #fff;       /* Ajout d'une bordure */
+    border-radius: 4px;           /* Arrondis des bordures */
+}
+
+.EXP{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+} 
+
+a{
+    color: black;
+}
+
+#currentpage{
+    color: black;
+    background-color: lightsalmon;
+}
+
+h1{
+    display: flex;
+    color: red;
+    justify-content: center;
+}
+
+body{
+    background-color: pink;
+}
